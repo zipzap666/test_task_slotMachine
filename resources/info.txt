@@ -1,0 +1,27 @@
+img 1:
+X : 371
+Y : 255
+width : 547
+heigt : 750
+scale : 1
+
+img 2:
+X : 1458
+Y : 278
+width : 490
+heigt : 742
+scale : 1.01
+
+img 3:
+X : 2382
+Y : 308
+width : 727
+heigt : 709
+scale : 1.06
+
+img 4:
+X : 3374
+Y : 247
+width : 817
+heigt : 817
+scale : 0.92
