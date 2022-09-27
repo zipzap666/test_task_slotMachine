@@ -12,7 +12,6 @@ bool StateIdle::update(sf::RenderWindow &window, FieldControler &controler, Butt
 {
     controler.draw(window);
     startButton.draw(window);
-    stopButton.draw(window);
 
     if (startButton.isPressed())
     {

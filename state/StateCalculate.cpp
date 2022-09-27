@@ -18,8 +18,6 @@ bool StateCalculate::update(sf::RenderWindow &window, FieldControler &controler,
                             Button &stopButton)
 {
     controler.draw(window);
-    startButton.draw(window);
-    stopButton.draw(window);
     this->scoreShower.draw(window);
 
     if (this->score < 0)

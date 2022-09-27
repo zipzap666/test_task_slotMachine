@@ -14,12 +14,12 @@ bool StateSpin::update(sf::RenderWindow &window, FieldControler &controler, Butt
 {
     controler.startSpin();
     controler.draw(window);
-    startButton.draw(window);
     stopButton.draw(window);
 
     if (stopButton.isPressed() || (this->clock.getElapsedTime().asSeconds() > 10.f))
     {
         controler.stopSpin();
+        stopButton.disable();
     }
 
     if (controler.spinIsStoped())
